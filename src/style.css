@@ -17,9 +17,17 @@
 }
 
 .nav-item .l {
-    margin-right: 10px;
+    margin-right: 13px;
 }
 
 .navbar-custom {
     background-color: #181C29;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    color: crimson;
 }

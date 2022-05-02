@@ -47,6 +47,32 @@ body::before {
     color: #D4F1F4;
 }
 
+.links .link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid #05445E;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links .link:hover {
+    background-color: #05445E;
+}
+
+.link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.link i {
+    font-size: 24px;
+}
+
 .hello {
     font-size: 32px;
 }

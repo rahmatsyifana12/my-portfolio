@@ -38,8 +38,8 @@ body::before {
 
 #home {
     background-color: #189AB4;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #home a {
@@ -89,7 +89,7 @@ body::before {
 .my-portfolio-btn {
     padding: 13px 40px;
     font-size: 15px;
-    border-radius: 18px;
+    border-radius: 50px;
     border: 2px solid #05445E;
     background-color: #189AB4;
     color: #D4F1F4;

@@ -4,16 +4,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.container {
-    max-width: 1100px;
+body::before {
+    display: block;
+    content: '';
+    height: 81px;
 }
 
 .navbar-brand {
     font-size: 26px;
+    font-weight: 800;
 }
 
 .nav-item {
     font-size: 18px;
+    font-weight: 700;
 }
 
 .nav-item .l {
@@ -21,13 +25,51 @@
 }
 
 .navbar-custom {
-    background-color: #181C29;
+    background-color: #05445E;
 }
 
-.navbar-dark .nav-item .nav-link {
-    color: #fff;
+.navbar-dark .nav-item .nav-link, #home {
+    color: #D4F1F4;
 }
 
 .navbar-dark .nav-item .nav-link:hover {
-    color: crimson;
+    color: #77999c;
+}
+
+#home {
+    background-color: #189AB4;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+#home a {
+    text-decoration: none;
+    color: #D4F1F4;
+}
+
+.hello {
+    font-size: 32px;
+}
+
+.name {
+    font-size: 46px;
+}
+
+.a-what {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.my-portfolio-btn {
+    padding: 13px 40px;
+    font-size: 15px;
+    border-radius: 18px;
+    border: 2px solid #05445E;
+    background-color: #189AB4;
+    color: #D4F1F4;
+    transition: 0.4s;
+}
+
+.my-portfolio-btn:hover {
+    background-color: #05445E;
 }

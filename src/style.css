@@ -69,11 +69,11 @@ body::before {
     width: 100%;
 }
 
-.link i {
+.link i, .about-me-title {
     font-size: 24px;
 }
 
-.hello {
+.hello, .about .title {
     font-size: 32px;
 }
 
@@ -119,4 +119,14 @@ body::before {
 
 .about img {
     border-radius: 50%;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .col-md-4 {
+        margin-bottom: 48px;
+    }
 }

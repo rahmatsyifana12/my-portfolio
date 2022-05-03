@@ -11,7 +11,7 @@ body::before {
 }
 
 .navbar-brand {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 800;
 }
 
@@ -113,4 +113,8 @@ body::before {
 .about-img {
     width: fit-content;
     margin: auto;
+}
+
+.about img {
+    max-width: 350px;
 }

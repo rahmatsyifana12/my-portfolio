@@ -74,7 +74,7 @@ body::before {
     font-size: 24px;
 }
 
-.a-what, .about .title, .skills .title, .contact .title {
+.a-what {
     font-size: 32px;
 }
 
@@ -108,9 +108,10 @@ body::before {
     color: #fff;
 }
 
-.about .title, .skills .title, .contact .title {
+.about .title, .skills .title, .contact .title, .portfolio .title {
     width: fit-content;
     margin: auto;
+    font-size: 32px;
 }
 
 .about-img {
@@ -190,6 +191,8 @@ body::before {
 .portfolio {
     background-color: #181a28;
     color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .contact {

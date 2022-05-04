@@ -168,13 +168,13 @@ body::before {
 /* Animation */
 #home .container {
     opacity: 0;
-    transform: translateY(400px);
-    transition: 0.8s;
+    transform: translateX(-400px);
+    transition: 1.6s;
 }
 
 #home .container.show {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 #about .about-img, #about .line, #about .title, #about .about-me-title, #about .desc {

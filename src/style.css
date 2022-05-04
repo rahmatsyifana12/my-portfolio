@@ -199,18 +199,43 @@ body::before {
     background-color: #1b1e2d;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 92px;
 }
 
 .contact-list {
     border: 1px solid #212437;
     border-radius: 10px;
     background-color: #212437;
-    margin: 0 12px 8px 12px;
+    margin-bottom: 8px;
     padding: 18px 26px;
 }
 
 .contact .content-title {
     font-size: 20px;
     margin-bottom: 4px;
+}
+
+.contact i {
+    color: crimson;
+}
+
+.contact .row {
+    padding: 0 12px;
+}
+
+@media (min-width: 992px) {
+    .contact-list {
+        margin: 0 12px 8px 12px;
+    }
+}
+
+.footer {
+    background-color: #151723;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer .content {
+    width: fit-content;
+    margin: auto;
 }

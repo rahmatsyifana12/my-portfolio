@@ -167,13 +167,13 @@ body::before {
 
 /* Animation */
 /* Left */
-#home .col-1, #about .about-img, #skills .col-1, #skills .col-2, #skills .col-3 {
+#home .col-1, #about .about-img, #skills .col-1, #skills .col-2, #skills .col-3, #contact .col-1, #contact .col-2, #contact .col-3 {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     transition: 1.5s;
 }
 
-#home .col-1.show, #about .about-img.show, #skills .col-1.show, #skills .col-2.show, #skills .col-3.show {
+#home .col-1.show, #about .about-img.show, #skills .col-1.show, #skills .col-2.show, #skills .col-3.show, #contact .col-1.show, #contact .col-2.show, #contact .col-3.show {
     opacity: 1;
     transform: translateX(0);
 }
@@ -181,7 +181,7 @@ body::before {
 /* Right */
 #home .col-2, #about .about-me {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(50px);
     transition: 1.5s;
 }
 
@@ -191,12 +191,12 @@ body::before {
 }
 
 /* Fade */
-#about .line, #about .title, #skills .topper {
+#about .line, #about .title, #skills .topper, #contact .topper {
     opacity: 0;
     transition: 1.5s;
 }
 
-#about .line.show, #about .title.show, #skills .topper.show {
+#about .line.show, #about .title.show, #skills .topper.show, #contact .topper.show {
     opacity: 1;
 }
 

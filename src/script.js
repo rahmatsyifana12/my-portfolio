@@ -25,6 +25,34 @@ $(window).on('load', () => {
             $('#about .about-me').addClass('show');
         }, 300);
     }
+
+    // My Skills
+    if (wScroll > $('#skills').offset().top - 770) {
+        $('#skills .topper').addClass('show');
+        setTimeout(() => {
+            $('#skills .col-1').addClass('show');
+        }, 300);
+        setTimeout(() => {
+            $('#skills .col-2').addClass('show');
+        }, 500);
+        setTimeout(() => {
+            $('#skills .col-3').addClass('show');
+        }, 700);
+    }
+
+    // Contact Me
+    if (wScroll > $('#contact').offset().top - 774) {
+        $('#contact .topper').addClass('show');
+        setTimeout(() => {
+            $('#contact .col-1').addClass('show');
+        }, 300);
+        setTimeout(() => {
+            $('#contact .col-2').addClass('show');
+        }, 600);
+        setTimeout(() => {
+            $('#contact .col-3').addClass('show');
+        }, 900);
+    }
 });
 
 $(window).scroll(() => {
@@ -54,6 +82,24 @@ $(window).scroll(() => {
         setTimeout(() => {
             $('#skills .col-3').addClass('show');
         }, 700);
+    }
+
+    console.log(wScroll);
+    // console.log($('#skills').offset().top);
+
+    // Contact Me
+    if (wScroll > $('#contact').offset().top - 774) {
+        console.log('ping');
+        $('#contact .topper').addClass('show');
+        setTimeout(() => {
+            $('#contact .col-1').addClass('show');
+        }, 300);
+        setTimeout(() => {
+            $('#contact .col-2').addClass('show');
+        }, 600);
+        setTimeout(() => {
+            $('#contact .col-3').addClass('show');
+        }, 900);
     }
 });
 

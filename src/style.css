@@ -166,17 +166,19 @@ body::before {
 }
 
 /* Animation */
-#home .col-1, #about .about-img {
+/* Left */
+#home .col-1, #about .about-img, #skills .col-1, #skills .col-2, #skills .col-3 {
     opacity: 0;
     transform: translateX(-100px);
     transition: 1.5s;
 }
 
-#home .col-1.show, #about .about-img.show {
+#home .col-1.show, #about .about-img.show, #skills .col-1.show, #skills .col-2.show, #skills .col-3.show {
     opacity: 1;
     transform: translateX(0);
 }
 
+/* Right */
 #home .col-2, #about .about-me {
     opacity: 0;
     transform: translateX(100px);
@@ -188,12 +190,13 @@ body::before {
     transform: translateX(0);
 }
 
-#about .line, #about .title {
+/* Fade */
+#about .line, #about .title, #skills .topper {
     opacity: 0;
     transition: 1.5s;
 }
 
-#about .line.show, #about .title.show {
+#about .line.show, #about .title.show, #skills .topper.show {
     opacity: 1;
 }
 

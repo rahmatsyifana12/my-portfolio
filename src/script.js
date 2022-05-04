@@ -11,20 +11,18 @@ $(document).ready( () => {
 
 // Home
 $(window).on('load', () => {
-    $('#home .container').addClass('show');
+    $('#home .col-1').addClass('show');
+    $('#home .col-2').addClass('show');
+
     let wScroll = $(this).scrollTop();
 
-    console.log(wScroll);
     if (wScroll > $('#about').offset().top - 555) {
         $('#about .title').addClass('show');
         setTimeout(() => {
             $('#about .about-img').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#about .about-me-title').addClass('show');
-        }, 300);
-        setTimeout(() => {
-            $('#about .desc').addClass('show');
+            $('#about .about-me').addClass('show');
         }, 300);
     }
 });
@@ -40,10 +38,7 @@ $(window).scroll(() => {
             $('#about .about-img').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#about .about-me-title').addClass('show');
-        }, 300);
-        setTimeout(() => {
-            $('#about .desc').addClass('show');
+            $('#about .about-me').addClass('show');
         }, 300);
     }
 });

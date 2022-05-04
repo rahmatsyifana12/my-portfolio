@@ -166,26 +166,35 @@ body::before {
 }
 
 /* Animation */
-#home .container {
+#home .col-1, #about .about-img {
     opacity: 0;
-    transform: translateX(-400px);
-    transition: 1.6s;
+    transform: translateX(-100px);
+    transition: 1.5s;
 }
 
-#home .container.show {
+#home .col-1.show, #about .about-img.show {
     opacity: 1;
     transform: translateX(0);
 }
 
-#about .about-img, #about .line, #about .title, #about .about-me-title, #about .desc {
+#home .col-2, #about .about-me {
     opacity: 0;
-    transform: translateY(400px);
-    transition: 0.8s;
+    transform: translateX(100px);
+    transition: 1.5s;
 }
 
-#about .about-img.show, #about .line.show, #about .title.show, #about .about-me-title.show, #about .desc.show {
+#home .col-2.show, #about .about-me.show {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
+}
+
+#about .line, #about .title {
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#about .line.show, #about .title.show {
+    opacity: 1;
 }
 
 .portfolio {

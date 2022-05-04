@@ -1,5 +1,14 @@
+$(document).ready(() => {
+    const type = new Typed('.auto-type', {
+        strings: ['a student', 'a web developer', 'a tech enthusiast'],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true
+    });
+});
+
 // Home
-$(window).on('load', function() {
+$(window).on('load', () => {
     $('#home .container').addClass('show');
     let wScroll = $(this).scrollTop();
 
@@ -18,7 +27,7 @@ $(window).on('load', function() {
     }
 });
 
-$(window).scroll(function() {
+$(window).scroll(() => {
     let wScroll = $(this).scrollTop();
 
     // About Me

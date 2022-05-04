@@ -177,13 +177,13 @@ body::before {
     transform: translateY(0);
 }
 
-#about .about-img, #about .title, #about .about-me-title, #about .desc {
+#about .about-img, #about .line, #about .title, #about .about-me-title, #about .desc {
     opacity: 0;
     transform: translateY(400px);
     transition: 0.8s;
 }
 
-#about .about-img.show, #about .title.show, #about .about-me-title.show, #about .desc.show {
+#about .about-img.show, #about .line.show, #about .title.show, #about .about-me-title.show, #about .desc.show {
     opacity: 1;
     transform: translateY(0);
 }
@@ -237,5 +237,11 @@ body::before {
 
 .footer .content {
     width: fit-content;
+    margin: auto;
+}
+
+.line {
+    height: 2px;
+    background-color: crimson;
     margin: auto;
 }

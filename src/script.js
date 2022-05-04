@@ -24,6 +24,7 @@ $(window).scroll(function() {
     // About Me
     if (wScroll > $('#about').offset().top - 546) {
         $('#about .title').addClass('show');
+        $('#about .line').addClass('show');
         setTimeout(() => {
             $('#about .about-img').addClass('show');
         }, 300);

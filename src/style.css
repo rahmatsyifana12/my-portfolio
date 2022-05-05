@@ -213,15 +213,9 @@ body::before {
 .portfolio .list .content {
 }
 
-.portfolio .list .content img {
+.portfolio .list img {
     border-radius: 10px;
-    margin: 16px 0;
-}
-
-@media (max-width: 992px) {
-    .contact-list {
-        margin: 0 12px 8px 12px;
-    }
+    margin: 14px 0;
 }
 
 .contact {

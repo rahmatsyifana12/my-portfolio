@@ -84,9 +84,6 @@ $(window).scroll(() => {
         }, 700);
     }
 
-    console.log(wScroll);
-    // console.log($('#skills').offset().top);
-
     // Contact Me
     if (wScroll > $('#contact').offset().top - 774) {
         console.log('ping');

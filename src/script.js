@@ -11,8 +11,8 @@ $(document).ready( () => {
 
 // Home
 $(window).on('load', () => {
-    $('#home .col-1').addClass('show');
-    $('#home .col-2').addClass('show');
+    $('#home .col-one').addClass('show');
+    $('#home .col-two').addClass('show');
 
     let wScroll = $(this).scrollTop();
 
@@ -30,13 +30,13 @@ $(window).on('load', () => {
     if (wScroll > $('#skills').offset().top - 770) {
         $('#skills .topper').addClass('show');
         setTimeout(() => {
-            $('#skills .col-1').addClass('show');
+            $('#skills .col-one').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#skills .col-2').addClass('show');
+            $('#skills .col-two').addClass('show');
         }, 500);
         setTimeout(() => {
-            $('#skills .col-3').addClass('show');
+            $('#skills .col-three').addClass('show');
         }, 700);
     }
 
@@ -44,13 +44,13 @@ $(window).on('load', () => {
     if (wScroll > $('#contact').offset().top - 774) {
         $('#contact .topper').addClass('show');
         setTimeout(() => {
-            $('#contact .col-1').addClass('show');
+            $('#contact .col-one').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#contact .col-2').addClass('show');
+            $('#contact .col-two').addClass('show');
         }, 600);
         setTimeout(() => {
-            $('#contact .col-3').addClass('show');
+            $('#contact .col-three').addClass('show');
         }, 900);
     }
 });
@@ -74,13 +74,13 @@ $(window).scroll(() => {
     if (wScroll > $('#skills').offset().top - 770) {
         $('#skills .topper').addClass('show');
         setTimeout(() => {
-            $('#skills .col-1').addClass('show');
+            $('#skills .col-one').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#skills .col-2').addClass('show');
+            $('#skills .col-two').addClass('show');
         }, 500);
         setTimeout(() => {
-            $('#skills .col-3').addClass('show');
+            $('#skills .col-three').addClass('show');
         }, 700);
     }
 
@@ -92,13 +92,13 @@ $(window).scroll(() => {
         console.log('ping');
         $('#contact .topper').addClass('show');
         setTimeout(() => {
-            $('#contact .col-1').addClass('show');
+            $('#contact .col-one').addClass('show');
         }, 300);
         setTimeout(() => {
-            $('#contact .col-2').addClass('show');
+            $('#contact .col-two').addClass('show');
         }, 600);
         setTimeout(() => {
-            $('#contact .col-3').addClass('show');
+            $('#contact .col-three').addClass('show');
         }, 900);
     }
 });

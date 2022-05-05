@@ -167,30 +167,30 @@ body::before {
 
 /* Animation */
 /* Left */
-#home .col-1, #about .about-img, #skills .col-1, #skills .col-2, #skills .col-3, #contact .col-1, #contact .col-2, #contact .col-3 {
+#home .col-one, #about .about-img, #skills .col-one, #skills .col-two, #skills .col-three, #contact .col-one, #contact .col-two, #contact .col-three {
     opacity: 0;
     transform: translateX(-50px);
     transition: 1.5s;
 }
 
-#home .col-1.show, #about .about-img.show, #skills .col-1.show, #skills .col-2.show, #skills .col-3.show, #contact .col-1.show, #contact .col-2.show, #contact .col-3.show {
+#home .col-one.show, #about .about-img.show, #skills .col-one.show, #skills .col-two.show, #skills .col-three.show, #contact .col-one.show, #contact .col-two.show, #contact .col-three.show {
     opacity: 1;
     transform: translateX(0);
 }
 
-/* Right */
-#home .col-2, #about .about-me {
+
+#home .col-two, #about .about-me {
     opacity: 0;
     transform: translateX(50px);
     transition: 1.5s;
 }
 
-#home .col-2.show, #about .about-me.show {
+#home .col-two.show, #about .about-me.show {
     opacity: 1;
     transform: translateX(0);
 }
 
-/* Fade */
+
 #about .line, #about .title, #skills .topper, #contact .topper {
     opacity: 0;
     transition: 1.5s;

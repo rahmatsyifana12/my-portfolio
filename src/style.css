@@ -204,7 +204,7 @@ body::before {
     background-color: #181a28;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 86px;
 }
 
 .portfolio .list {
@@ -215,7 +215,7 @@ body::before {
 
 .portfolio .list img {
     border-radius: 10px;
-    margin: 14px 0;
+    margin: 12px 0;
 }
 
 .contact {

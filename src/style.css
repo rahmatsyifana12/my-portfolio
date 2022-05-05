@@ -268,3 +268,7 @@ body::before {
     background-color: crimson;
     margin: auto;
 }
+
+.skill-list img {
+    align-items: center;
+}

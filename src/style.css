@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Nunito:wght@400;500;600;700&display=swap');
 
 * {
     font-family: 'Nunito', sans-serif;
@@ -141,7 +141,7 @@ body::before {
 }
 
 .skill-title {
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 10px;
 }
 
@@ -152,13 +152,17 @@ body::before {
 .skill-list li {
     display: inline-block;
     list-style: none;
-    border: 1px solid crimson;
-    padding: 3px 15px;
-    border-radius: 50px;
-    background-color: #1b1e2d;
-    font-size: 14px;
+    padding: 5px 11px;
+    font-size: 18px;
     margin-bottom: 8px;
     margin-right: 3px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+}
+
+.skill-list img {
+    width: 18px;
+    margin-bottom: 1px;
 }
 
 .skills .col-md {
@@ -269,6 +273,3 @@ body::before {
     margin: auto;
 }
 
-.skill-list img {
-    align-items: center;
-}

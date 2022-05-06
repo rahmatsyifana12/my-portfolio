@@ -296,7 +296,7 @@ body::before {
 }
 
 .portfolio .card-img-overlay {
-    background-color: #181a28;
+    /* background-color: rgba(24, 26, 40, 0); */
     color: #fff;
 }
 
@@ -310,5 +310,24 @@ body::before {
 }
 
 .portfolio .card-img-overlay:hover {
-    opacity: 0.5;
+    opacity: 1;
+    background-color: rgba(24, 26, 40, 0.6);
+}
+
+.portfolio .tech-list ul {
+    padding-left: 0;
+}
+
+.portfolio .tech-list li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 11px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 500;
+    background-color: #51545B;
+    color: #fff;
+    border-radius: 50px;
 }

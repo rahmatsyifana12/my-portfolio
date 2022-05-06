@@ -170,14 +170,13 @@ body::before {
 }
 
 /* Animation */
-/* Left */
-#home .col-one, #about .about-img, #skills .col-one, #skills .col-two, #skills .col-three, #contact .col-one, #contact .col-two, #contact .col-three {
+#home .col-one, #about .about-img, #skills .col-one, #skills .col-two, #skills .col-three, #skills .col-four, #contact .col-one, #contact .col-two, #contact .col-three {
     opacity: 0;
     transform: translateX(-50px);
     transition: 1.5s;
 }
 
-#home .col-one.show, #about .about-img.show, #skills .col-one.show, #skills .col-two.show, #skills .col-three.show, #contact .col-one.show, #contact .col-two.show, #contact .col-three.show {
+#home .col-one.show, #about .about-img.show, #skills .col-one.show, #skills .col-two.show, #skills .col-three.show, #skills .col-four.show, #contact .col-one.show, #contact .col-two.show, #contact .col-three.show {
     opacity: 1;
     transform: translateX(0);
 }

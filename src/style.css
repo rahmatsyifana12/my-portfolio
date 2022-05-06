@@ -289,3 +289,17 @@ body::before {
 .go-top-btn.show {
     opacity: 1;
 }
+
+.portfolio .card-img-overlay {
+    color: #fff;
+    background-color: #181a28;
+    border-color: #181a28;
+}
+
+.card-img-overlay .wrap {
+    align-self: flex-end;
+}
+
+.portfolio .card-img-overlay {
+    opacity: 0.5;
+}

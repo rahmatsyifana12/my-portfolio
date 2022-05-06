@@ -213,7 +213,7 @@ body::before {
 
 .portfolio .list img {
     border-radius: 10px;
-    margin: 12px 0;
+    margin: 0 0;
 }
 
 .contact {
@@ -291,6 +291,7 @@ body::before {
 }
 
 .portfolio .card {
+    border-color: #181a28;
     background-color: #181a28;
 }
 

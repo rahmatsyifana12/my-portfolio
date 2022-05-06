@@ -86,7 +86,6 @@ $(window).scroll(() => {
 
     // Contact Me
     if (wScroll > $('#contact').offset().top - 774) {
-        console.log('ping');
         $('#contact .topper').addClass('show');
         setTimeout(() => {
             $('#contact .col-one').addClass('show');
@@ -97,6 +96,13 @@ $(window).scroll(() => {
         setTimeout(() => {
             $('#contact .col-three').addClass('show');
         }, 900);
+    }
+
+    // Go to top button
+    if (wScroll > $('#about').offset().top) {
+        $('.go-top-btn').addClass('show');
+    } else {
+        $('.go-top-btn').removeClass('show');
     }
 });
 

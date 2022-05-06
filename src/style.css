@@ -141,7 +141,7 @@ body::before {
 }
 
 .skill-title {
-    font-size: 21px;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
@@ -211,12 +211,6 @@ body::before {
     padding-bottom: 86px;
 }
 
-.portfolio .list {
-}
-
-.portfolio .list .content {
-}
-
 .portfolio .list img {
     border-radius: 10px;
     margin: 12px 0;
@@ -273,3 +267,25 @@ body::before {
     margin: auto;
 }
 
+.go-top-btn {
+    position: fixed;
+    color: #181a28;
+    bottom: 40px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: crimson;
+}
+
+.go-top-btn:hover {
+    color: crimson;
+}
+
+.go-top-btn {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.go-top-btn.show {
+    opacity: 1;
+}

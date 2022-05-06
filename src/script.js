@@ -84,6 +84,17 @@ $(window).scroll(() => {
         }, 700);
     }
 
+    // My Portfolio
+    if (wScroll > $('#portfolio').offset().top - 770) {
+        $('#portfolio .topper').addClass('show');
+        setTimeout(() => {
+            $('#portfolio .col-one').addClass('show');
+        }, 300);
+        setTimeout(() => {
+            $('#portfolio .col-two').addClass('show');
+        }, 500);
+    }
+
     // Contact Me
     if (wScroll > $('#contact').offset().top - 774) {
         $('#contact .topper').addClass('show');

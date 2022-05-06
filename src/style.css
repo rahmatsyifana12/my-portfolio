@@ -195,12 +195,12 @@ body::before {
 }
 
 
-#about .line, #about .title, #skills .topper, #contact .topper {
+#about .line, #about .title, #skills .topper, #contact .topper, #portfolio .topper, #portfolio .col-one, #portfolio .col-two {
     opacity: 0;
     transition: 1.5s;
 }
 
-#about .line.show, #about .title.show, #skills .topper.show, #contact .topper.show {
+#about .line.show, #about .title.show, #skills .topper.show, #contact .topper.show, #portfolio .topper.show, #portfolio .col-one.show, #portfolio .col-two.show {
     opacity: 1;
 }
 

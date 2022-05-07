@@ -38,6 +38,9 @@ $(window).on('load', () => {
         setTimeout(() => {
             $('#skills .col-three').addClass('show');
         }, 700);
+        setTimeout(() => {
+            $('#skills .col-four').addClass('show');
+        }, 900);
     }
 
     // Contact Me
